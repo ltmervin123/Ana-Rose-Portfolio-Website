@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <nav class="topnav">
+        <nav class="topnav" id="topnav">
             <img src="Image/logo.png" alt="Logo">
 
             <div class="nav-list">
@@ -22,8 +22,16 @@
                 <a href="#about">ABOUT</a>
                 <a href="#contact">CONTACT</a>
             </div>
-            <img src="Image/icons8-hamburger-menu-30.png" alt="" class="menu-icon">
-            <img src="Image/icons8-x-30.png" alt="" class="x-icon">
+            <div class="side-bar" id="side-bar">
+                <img src="Image/icons8-hamburger-menu-30.png" alt="" class="menu-icon" id="menu-icon">
+                <img src="Image/icons8-x-30.png" alt="" class="x-icon" id="x-icon">
+                <div class="list">
+                    <a href="#home">HOME</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -125,6 +133,8 @@
             <p>&copy;Copyright 2024 . Made by Ana Rose Dequit</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
