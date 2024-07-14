@@ -289,7 +289,7 @@ footer .copy-right > p{
   }
 }
 
-@media (max-width: `px) {
+@media (max-width: 768px) {
   #home .main {
     display: inline;
   }
